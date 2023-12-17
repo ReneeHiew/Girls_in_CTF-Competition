@@ -1,7 +1,5 @@
 Question: layers of bases -> cryptography
 
-Question: Layers of Bases
-
 Based on the question, we get the hint that the question is about bases cryptography
 Download the file (flag.enc) provided in the question
 
