@@ -1,0 +1,11 @@
+Question: wireshark#1 -> forensics
+
+Download pcap file provided in the question
+Open pcap file downloaded in wireshark -> wireshark <filename>
+First go to 'Analyze' and then 'Follow TCP stream', however, nothing valuable is found
+Then proceed to 'File' section, 'Export HTTP Object', we get 2 files from there
+One is text file and one is zip file
+Save both files into local directory 
+cat secret.txt in terminal -> flag is found
+
+Flag is GCTF2023{fl4g_in_tcpdump_ez}
