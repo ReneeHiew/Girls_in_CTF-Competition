@@ -1,0 +1,16 @@
+Question: frequency -> misc
+
+Download file provided in question
+
+Use 'file' command to determine file which it is a wav file
+Based on the question:
+Hint -> I can hear the flag 
+
+Try to find hidden data or file in image using online steganography decoder
+However it resulted no data detected
+
+Another hint from question is frequency 
+Use sonic visualizer then go to 'Layer' section and 'Add Spectrogram'
+Frequency shown looks like a flag format
+
+Flag is GCTF2023{this_fl4g_sounds_weirddddddd}
