@@ -2,14 +2,12 @@ Question: layers of bases -> cryptography
 
 Question: Layers of Bases
 
-Based on question, we get the hint of the question is about bases cryptography
-![image](https://github.com/ReneeHiew/Girls_in_CTF-Competition/assets/130226633/aabc4783-0fb8-447d-a744-54bc8e353f94)
+Based on the question, we get the hint that the question is about bases cryptography
 Download the file (flag.enc) provided in the question
 
-Use online base cryptography decoder to decode encrypted text in the file downloaded
-First decode encrypted text from Base 45
+Use an online base cryptography decoder to decode encrypted text in the file downloaded
+First, decode encrypted text from Base 45
 Then, continue decoding with Base 64
 From Base 64 continue decoding to Base 45 again and then lastly to Base 32
-![image](https://github.com/ReneeHiew/Girls_in_CTF-Competition/assets/130226633/7f80044d-fc8a-491b-a0dc-389530bbce78)
 
 Flag is GCTF2023{L4y3rs_0f_3ncrypt10n}
